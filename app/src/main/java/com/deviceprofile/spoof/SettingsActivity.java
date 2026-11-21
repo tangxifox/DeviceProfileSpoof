@@ -113,7 +113,7 @@ public final class SettingsActivity extends Activity {
     connectionDetail=label("LSPosed",16,text); add(summary,connectionDetail,2);
     apiLine=label("API 102",17,text); add(summary,apiLine,16);
     LinearLayout details=column();details.setBackground(bg(card,20,0));details.setPadding(0,dp(7),0,dp(7));add(overview,details,14);
-    detail(details,"应用版本","1.0.0");
+    detail(details,"应用版本","1.0.1");
     detail(details,"系统设备",android.os.Build.MANUFACTURER+" "+android.os.Build.MODEL);
     profileDetail=detail(details,"已保存的伪装机型",Config.DEFAULTS[2]);
     scopeDetail=detail(details,"应用作用域   ›","点按查看已选应用");
